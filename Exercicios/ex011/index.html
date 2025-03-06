@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>
+      Tente abrir esse site em vários dispositivos diferentes,ou aumente e diminua a janela, e veja como a imagen se adapta ao tamanho da tela.  
+    </p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagen flexível">
+    </picture>
+
+    <h1>Reproduzir Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+
+    <audio src="midia/BK__ Nansy Silvvz - Amanhecer (Visualizer)(M4A_128K).m4a" controls></audio>
+
+    <audio preload="auto" controls autoplay loop>
+        <source src="midia/Silent Night - The Soundlings.mp3" type="audio/mpeg">!-- mpeg é o formato de áudio mais comum --!
+
+        <source src="midia/Silent Night - The Soundlings.wav" type="audio/wav">
+
+        <source src="midia/Silent Night - The Soundlings.ogg" type="audio/ogg">
+
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/Silent Night - The Soundlings.mp3">Clique aqui para baixar o arquivo de áudio.</a></p>
+    </audio>
+
+</body>
+</html>

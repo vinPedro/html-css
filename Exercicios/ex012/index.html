@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+    <style>
+        body{
+            background-color:rgb(86, 11, 11)
+        }
+    </style>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+
+    <video src="midia/12823725_1080_1920_30fps.mp4" width="280" height="500" controls loop poster="imagens/images.jpg"></video>
+
+    <video controls loop width="280" height="500" poster="imagens/images.jpg">
+        <source src="midia/12823725_1080_1920_30fps.mp4" type="video/mp4">
+        <source src="midia/12823725_1080_1920_30fps.m4v" type="video/mp4">
+        <source src="midia/12823725_1080_1920_30fps.webm" type="video/webm">
+        <source src="midia/12823725_1080_1920_30fps.ogv" type="video/ogg">
+        Seu navegador não suporta vídeos em HTML5.
+
+    </video>
+
+    <h1>Inserindo vídeos de hospedagem externa(youtube):</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/LW0bhKitRBk?si=d02R2nk0wfOqCkQr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <h1>Imagem com link</h1>
+    <a href="https://www.youtube.com/watch?v=4zg0x9U8L1Y" target="_parent" >
+        <img src="imagens/images.jpg" alt="Imagem com link" width="280" height="500">
+    </a>
+    <br>
+    <a href="https://www.youtube.com/embed/LW0bhKitRBk?si=d02R2nk0wfOqCkQr"> Clique aqui </a>
+
+</body>
+</html>

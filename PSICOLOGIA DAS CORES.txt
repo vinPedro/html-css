@@ -1,0 +1,37 @@
+PSICOLOGIA DAS CORES:
+
+Escolha uma cor - cores remetem a sentimentos;
+
+Tem cores que causam cansaço visual - cuidado!
+
+HARMONIA DE CORES:
+
+Se quiser representar clima - utilizar cores frias os quentes;
+
+Um média de 3 a 5 cores, na palheta de cores do site - branco e preto não entra na contagem da palheta, pois sempre são usados. Só conta se for uma parte muito relevante da página.
+
+Para contraste entre cores - escolhesse a cor diretamente oposta a escolhida(traçamos uma reta).
+
+Para cores análogas - escolhemos as cores vizinhas a escolhida.
+
+---Podemos juntar as duas técnicas.---
+
+Para um contraste médio - escolhemos duas cores vizinhas, pulamos uma casa exatamente ao lados das cores, e escolhemos a 3 cor.
+
+Para cores intercaladas(cores menos análogas) - escolhemos uma cor, e escolhemos as outras 2 intercalando entre ela.
+
+Cores tetráticas - utilizamos, 2 vezes, o contraste entre cores. Se utilizamos cores análogas na escolha das duas cores principais.
+
+Monocromia - modificações, saturação-brilho-etc, utilizando uma única cor.
+
+Apps para definição de paleta de cores - Adobe color(disco de cores, extrair tema, extrair gradientes, explorar - temas de cores - mais usados, tendências); Paletton.com(Preview, examples); Coolors().
+
+Apps captura de cores - colorzilla() adicionar no chrome;
+
+TIPOGRAFIA:
+
+Tipos de letras - cada tipo(fonte, tamanho, etc) transmite uma emoção.
+
+As letras tem elementos(componentes anatômicos) que atraem, e diferentes fontes atraem de diferentes jeitos.
+
+As fontes tem famílias.
