@@ -4,7 +4,7 @@
   
 @font-face {
     font-family: 'Android';
-    src: url('/fontes/idroid.otf') format('opentype');
+    src: url('/desafios/d10/fontes/idroid.otf') format('opentype');
     font-weight: normal;
 }
 
@@ -18,7 +18,7 @@
 
    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
    --fonte-destaque: 'Bebas Neue', cursive;
-   --fonte-android: 'Android', cursive;
+   --fonte-android: 'Android', sans-serif;
 }
 
 *{
