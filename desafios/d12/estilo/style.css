@@ -88,7 +88,7 @@ section.imagem > p{
 }
 
 section#img01{
-    background: darkgray url(../imagens/background001.jpg) right center;
+    background: darkgray url(../imagens/background001.jpg) no-repeat right center;
     background-attachment: fixed;
 }
 
