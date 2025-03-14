@@ -15,13 +15,13 @@
 
 
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 html, body{
     min-height: 100vh;
-    background-color: darkgray;
+    background-color: white;
     font-family: var(--font1);
 }
 
@@ -60,13 +60,11 @@ section{
     padding-left: 30px;
     line-height: 1.5em;
     font-family: var(--fonte3);
-    font-size: 3.5vw;
+    font-size: 22px;
 }
 
 section > p{
-
     padding: 15px;
-    
 }
 
 section.padrao{
@@ -75,7 +73,7 @@ section.padrao{
 }
 
 section.imagem{
-    background-color: darkgray;
+    background-color: white;
     color: white;
     background-size: cover;
 }
@@ -88,12 +86,12 @@ section.imagem > p{
 }
 
 section#img01{
-    background: white url(../imagens/background001.jpg) no-repeat right center;
+    background: url(../imagens/background001.jpg) no-repeat center;
     background-attachment: fixed;
 }
 
 section#img02{
-    background: white url(../imagens/background002.jpg) no-repeat right center;
+    background: url(../imagens/background002.jpg) no-repeat center;
     background-attachment: fixed;
 }
 
