@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative; /* Para o cabeçalho ficar fixo */
+        }
+
+        thead, tfoot {
+            background-color: darkgray;
+            color: white;
+            
+        }
+
+        thead {
+            position: sticky; /* Para o cabeçalho ficar fixo */
+            top: 0; /* Para o cabeçalho ficar fixo */
+        }
+
+        tbody tr:nth-child(2n) { /* Pega a segunda linha e aplica o estilo */
+            /* odd Pegar as linhas ímpares */
+            /* even Pegar as linhas pares */
+            background-color: darkgray;
+        }
+
+        caption {
+            background-color: darkgray;
+            border: 1px solid #000;
+            font-size: 1.5em;
+            font-weight: bold;
+            
+        }
+        
+        th, td {
+            border: 1px solid #000;
+            padding: 8px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de Tabelas Grandes</h1>
+    <!-- ANATOMIA PARA TABELAS GRANDES
+        TABLE
+            CAPTION
+            THEAD
+                TR
+                    TH
+                    TD
+            TBODY
+                TR
+                    TH
+                    TD
+                TR
+                    TH
+                    TD
+            TFOOT
+                TR
+                    TH
+                    TD
+    
+    -->
+    <table>
+        <caption>População das Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+            <th scope="col"  style="width: 125px;">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td>44.035.304</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17.366.189</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21.292.666</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>14.930.634</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td>11.516.840</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td>11.422.973</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td>9.616.621</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td>9.187.103</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td>8.690.745</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td>7.252.502</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td>7.114.598</td>
+            </tr>
+            <tr>
+                <td>Goiás</td>
+                <td>7.113.540</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td>4.207.714</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td>4.039.277</td>
+            </tr>
+            <tr>
+                <td>Distrito Federal</td>
+                <td>3.055.149</td>
+            </tr>
+            <tr>
+                <td>Espírito Santo</td>
+                <td>4.064.052</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Norte</td>
+                <td>3.534.165</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td>3.351.543</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso</td>
+                <td>3.526.220</td>
+            </tr>
+            <tr>
+                <td>Tocantins</td>
+                <td>1.590.248</td>
+            </tr>
+            <tr>
+                <td>Roraima</td>
+                <td>631.181</td>
+            </tr>
+            <tr>
+                <td>Amapá</td>
+                <td>861.773</td>
+            </tr>
+            <tr>
+                <td>Acre</td>
+                <td>894.470</td>
+            </tr>
+            
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">População Total</th>
+                <td><strong>109.697.092</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
