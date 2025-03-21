@@ -34,13 +34,23 @@ section#celular{
 }
 
 section#redessociais{
-    position: absolute;
-    top: 15%;
-    left: 90%;
+   text-align: right;
+    
+}
 
-    height: 625px;
+section#redessociais  img{
     width: 50px;
-    background-color: black;
+    margin: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.309);
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+section#redessociais img:hover{
+    border: 3px solid white;
+    transform: translate(-3px, -3px);
+    box-shadow: 2px 8px 5px rgba(0, 0, 0, 0.689);
+    transition: transform 0.4s, border 0.2s;
 }
 
 iframe#tela{
@@ -51,3 +61,5 @@ iframe#tela{
     height: 470px;
     width: 265px;
 }
+
+
