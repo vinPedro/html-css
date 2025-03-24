@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body{
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        p{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meu Primeiro Formulário</h1>
+    <!-- method:
+      get - mostra os dados na url - menor que 3000 caracteris e dados legais
+      post - esconde os dados na url - maís que 3000 caracteris e dados sensiveis
+    -->
+    <form action="cadastro.php" method="post" autocomplete="off">
+        <P><label for="inome">NOME:</label>  
+            <input type="text" name="nome" id="inome"></P>
+
+        <P><label for="isobrenome">SOBRENOME:</label> 
+            <input type="text" name="sobrenome" id="isobrenome"></P>  
+
+        <p><input type="submit" value="ENVIAR "></p>
+    </form>
+</body>
+</html>

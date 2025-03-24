@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Teste de Formulário</h1>
+    <form action="cadastro.php" method="get">
+        <p>
+            <label for="inome">Nome: <input type="text" name="nome" id="inome" required maxlength="30" placeholder="Nome Completo" autocomplete="name"></label>
+        </p>
+        <p>
+            <label for="inota">Nota: 
+                <input type="number" name="nota" id="inota" required min="0" max="100" autocomplete="cc-number" step="0.5" value="5">
+                
+            </label>
+        </p>
+        <p>
+            <label for="imesi">Mês de início do Semestre: <input type="month" name="mesi" id="imesi" value="2025-01"></label>
+        </p>
+        <p>
+            <label for="imesf">Mês final do Semestre: <input type="month" name="mesf" id="imesf" value="2025-12"></label>
+        </p>
+        <p>
+            <label for="idata"> Data da Final:
+                <input type="date" name="data" id="idata" value="2025-12-14">
+            </label>
+        </p>
+        <p>
+            <label for="ihora">Horário da Prova:
+                <input type="time" name="hora" id="ihora" value="11:10"> 
+            </label>
+        </p>
+        <p>
+            <input type="submit" value="Enviar"> 
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
