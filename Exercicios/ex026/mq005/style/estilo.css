@@ -74,3 +74,16 @@ article p{
     text-align: justify;
     margin-bottom: 10px;
 }
+
+footer{
+    background-color: rgb(57, 56, 56);
+    color: white;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
