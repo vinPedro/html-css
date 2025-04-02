@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Box</title>
+    <style>
+        div.conteiner{
+
+
+            display: flex;
+            height: 400px;
+            flex-flow: row wrap;
+            align-content: space-evenly;
+            background-color: aquamarine;
+        }
+        div.item{
+            padding: 50px;
+            text-align: center;
+            background-color: bisque;
+            border: 1px solid black;
+        }
+
+         /* align-content - alinha os itens no cross-axis, quando eles estão empacotados. 
+        
+        align-content: stretch - padrão -> Quebra o cross-axis em espaços proporcionais, coloca os elementos nesses espaços e estica eles até preencher o espaço em relação ao cross-axis.
+
+        align-content: flex-start -> Pega os itens, gruda no cross-start e deixa um espaço em branco no cross-end.
+
+        align-content: flex-end -> Pega os itens, gruda no cross-end e deixa um espaço em branco no cross-start.
+
+        align-content: center -> Pega os itens, gruda no centro e deixa espaços em branco no cross-start e cross-end.
+
+        align-content: space-between -> os itens são separados por espaços em branco, os primeiro itens ficam grudados ao cross-start, e os últimos itens ficam grudados ao cross-end.
+
+        align-content: space-evenly -> os itens são separados por espaços em branco, os primeiro itens não ficam grudados ao cross-start, e os últimos itens não ficam grudados ao cross-end.
+
+        align-content: space-around -> Quebra o cross-axis em espaços proporcionais, coloca os elementos nesses espaços e centraliza os mesmos.
+        */
+    </style>
+</head>
+<body>
+
+    <div class="conteiner">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+    </div>
+</body>
+</html>
