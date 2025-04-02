@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Box</title>
+    <style>
+        div.conteiner{
+
+            /* 
+
+
+            flex-wrap: nowrap - Já vem como o padrão de um conteiner -> se o conteiner diminuir, os filhos se adaptam ao tamanho.
+
+            Ps: o conteúdo pode influenciar nessa adaptação.
+
+            flex-wrap: wrap -> Quebra a linha, caso o tamanho do conteiner não seja suficiente para os intens dentro dele. Quebra seguindo o cross-axis, eixo transversal.
+
+            flex-wrap: wrap-reverse -> Quebra a linha, caso o tamanho do conteiner não seja suficiente para os intens dentro dele. Quebra na direção oposta ao cross-axis, eixo transversal.
+
+            flex-flow: Junta o flex-direction com o flex-wrap.
+            
+            Ps: recomendace sempre usar flex-flow.
+
+            */
+
+            display: flex;
+            width: 250px;
+            margin: auto;
+            background-color: aquamarine;
+        }
+        div.item{
+            text-align: center;
+            background-color: bisque;
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="conteiner">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Box</title>
+    <style>
+        div.conteiner{
+
+            /* 
+            flex-direction: row -> deitado, linha -> elementos da esquerda para direita
+
+            flex-direction: row-reverse -> deitado, linha -> elementos da direita para esquerda
+
+            flex-direction: column -> em pé, coluna -> elementos de cima para baixo
+
+            flex-direction: column-reverse -> em pé, coluna -> elementos de baixo para cima
+
+            Utilizasse Eixos:
+
+            Eixo principal - main-start -> main-end
+            Eixo transversal - cross-start -> cross-end
+
+            Os eixos seguem as configurações dos flex-direction!
+            Exemplo: 
+            
+            flex-direction: row-reverse -> main-start=Começo da direita, main-end=Final da linha a esquerda.
+
+            Ps: O eixo transversal não é afetado
+
+            cross-start=Começa em cima, cross-end=termina em baixo
+
+            */
+
+            display: flex;
+            flex-direction: column;
+            width: 200px;
+            margin: auto;
+            background-color: aquamarine;
+        }
+        div.item{
+            flex: auto;
+            text-align: center;
+            background-color: bisque;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="conteiner">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+    </div>
+</body>
+</html>
