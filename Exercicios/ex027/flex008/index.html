@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Box</title>
+    <style>
+        div.conteiner{
+
+            display: flex;
+            
+            flex-flow: row wrap;
+        
+            background-color: aquamarine;
+        }
+        div.item{
+            
+            text-align: center;
+            background-color: bisque;
+            border: 1px solid black;
+            padding: 20px;
+        }
+
+        div#d1{
+            align-self: auto;
+        }
+
+        div#d2{
+            align-self: start;
+        }
+
+        div#d3{
+            align-self: flex-end;
+        }
+
+        div#d4{
+            align-self: center;
+        }
+
+        div#d5{
+            align-self: stretch;
+        }
+
+        div#d6{
+            align-self: center;
+        }
+
+        div#d7{
+            align-self: start;
+            flex-basis: 100px;
+        }
+
+        /* align-self - só se aplica para os filhos - se aplica ao cross-axis - cada elemento pode ter um alinhamento diferente.
+
+        align-self: auto; erda o alinhamento vertical do pai.
+
+        align-self: flex-start; gruda no cross-start.
+
+        align-self: flex-end; gruda no cross-end.
+
+        align-self: center; gruda no centro.
+
+        align-self: stretch; estica o item.
+         */
+
+    </style>
+</head>
+<body>
+
+    <div class="conteiner">
+        <div class="item" id="d1">A</div>
+        <div class="item" id="d2">B</div>
+        <div class="item" id="d3">C</div>
+        <div class="item" id="d4">D</div>
+        <div class="item" id="d5">E</div>
+        <div class="item" id="d6">F</div>
+        <div class="item" id="d7">Ggggggggggggggggggggg</div>
+    </div>
+</body>
+</html>
