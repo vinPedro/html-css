@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout na Prática</title>
+    <style>
+        div.conteiner{
+            border: 3px solid black;
+            height: 250px;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: auto auto auto;
+            gap: 20px;
+            padding: 10px;
+            align-items: stretch;
+            justify-items: stretch;
+            align-content: space-evenly;
+            justify-content: stretch;
+        }
+
+        div.item{
+            border: 3px solid blue;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <!-- GRID:
+
+    grid track - itens vão do inicio da uma grade até o final da mesma. |[item1][item2][...][...][...][item6]|
+
+    row track - track que é deitada.
+
+    colunm track - track em pé.
+
+    grid lines - linhas da grade que fazem as divisão dos itens. São demarcadas com index de 1 até 7(ou de -1 até -7 no inverso).
+
+    grid item - ponto onde duas grid track se cruzam. Não confudir grid item com item.
+
+    grid area - conjunto de itens.
+
+    grid gap -> gap - expaço entre os itens.
+
+    align -> vertical.
+
+    justify -> horizontal.
+    
+    -->
+
+    <div class="conteiner">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+        <div class="item">H</div>
+    </div>
+</body>
+</html>
